@@ -1,0 +1,18 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["oi", "ola", "bom dia", "boa tarde", "boa Noite", "como vai?"],
+     "responses": ["Ola! Meu nome e Ahimsa, qual e o seu?", "Ola, como posso te ajudar?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["tchau", "ate mais tarde", "ate mais", "ate logo", "tenha um bom dia"],
+     "responses": ["Ate mais, tenha um bom dia!", "Ate mais, foi bom falar com voce :)"],
+     "context_set": ""
+    },
+    {"tag": "name",
+     "patterns": ["Qual e o seu nome?", "Qual o seu nome?", "Quem e voce?"],
+     "responses": ["Voce pode me chamar de Ahimsa.", "Meu nome e Ahimsa."],
+     "context_set": ""
+    }
+]
+}

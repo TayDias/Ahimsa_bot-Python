@@ -1,0 +1,31 @@
+# Configuração inicial (que funcionou para mim no windows):
+
+Instalar todas as dependencias abaixo no CMD em modo administrador:
+
+pip install nltk
+pip install tflearn
+pip install tensorflow==1.5
+pip install numpy==1.16.4
+
+
+# Executar o código com (no terminal de comando, pasta do projeto):
+python main.py
+
+Obs: Alterar a variavel test para 1 após a primeira execução
+
+
+# Possíveis falhas:
+
+Em caso de falha com a DDL para o tensorflow:
+https://stackoverflow.com/questions/49397373/tensorflow-gpu-importerror-could-not-find-nvcuda-dll#:~:text=TensorFlow%20requires%20that%20this%20DLL,with%20the%20correct%20driver%20installed.
+
+Obs: Instalar a versão 1.5 que nem na configuração inicial, ao invés da sugerida na solução.
+
+Para instalar pacotes solicitados no terminal após erros - Incluir no código, executar e depois tirar:
+nltk.download('punkt')
+
+
+# Explicação da rede neural:
+https://www.youtube.com/watch?v=PzzHOvpqDYs&list=PLzMcBGfZo4-ndH9FoC4YWHGXG5RZekt-Q&index=3
+
+Minuto: 5:38
